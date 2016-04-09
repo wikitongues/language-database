@@ -32,6 +32,9 @@ Wikitongues currently uses a relational spreadsheet service called Airtable to h
 
 The language data itself is scraped from the academic repository [Ethnologue](www.ethnologue.com)
 
+#Goal
+To build an API that can power Poly not only with external language data, but also to which we can add our own new data in the form of structured dictionaries in the case of Poly, or video as with the Oral Histories. 
+
 ##Terms
 * ISO
   * The [International Standards Organization](http://www.iso.org/iso/home.html), along with the [Summer Institute for Linguistics](http://www.sil.org/) has devised an ISO code for languages that has seen six revisions so far. Wikitongues uses the third varient, ISO 639-3. Read more on [Wikipedia](https://en.wikipedia.org/wiki/ISO_639) 
