@@ -33,7 +33,7 @@ Wikitongues currently uses a relational spreadsheet service called Airtable to h
 The language data itself is scraped from the academic repository [Ethnologue](www.ethnologue.com)
 
 #Goal
-To build an API that can power Poly not only with external language data, but also to which we can add our own new data in the form of structured dictionaries in the case of Poly, or video as with the Oral Histories. 
+An API that can power Poly not only with external language data, but also to which we can add our own new data in the form of structured dictionaries in the case of Poly, or video as with the Oral Histories. 
 
 ##Terms
 * ISO
