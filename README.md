@@ -44,6 +44,6 @@ To build an API that can power Poly not only with external language data, but al
 * Writing Systems.
   * There are 125 known writing systems, categorized on [Scriptsource](http://scriptsource.org/cms/scripts/page.php?&id=)
 * Genealogy or [Language Family](https://en.wikipedia.org/wiki/Language_family)
-  * Genealogy is the historical study of the development of language. How languages change over space and time is encoded in a nesting structure. Ex. [Indo-European] > [Germanic] > ... > [English]. A quick comparisson shows the difference in resolution between [Glottolog](http://glottolog.org/resource/languoid/id/stan1293) and [Ethnologue](https://www.ethnologue.com/subgroups/english-1)
+  * Genealogy is the historical study of the development of language. How languages change over space and time is encoded in a nesting structure. Ex. [Indo-European] > [Germanic] > ... > [English]. A quick comparisson shows the difference in resolution between [Ethnologue](https://www.ethnologue.com/subgroups/english-1) (4 layers) and [Glottolog](http://glottolog.org/resource/languoid/id/stan1293) (10 layers)
 * Demographics
   * Demographic data is often either acquired by linguists on the field or compiled from census data. It is useful in strategizing where to focus our documentation activities.
