@@ -10,7 +10,7 @@ You can find the [Oral Histories](https://youtube.com/wikitongues) project on [Y
 There are around 7000 languages in the world. With new research emerging all the time, and the boundaries between languages and dialects being frequently challenged and eroded, correctly accounting for this volume and diversity is a world-class data problem.
 
 ###The Field of Linguistics
-ethonologue data structurex
+ethonologue data structure
 glottolog
 
 ##Problems
@@ -31,7 +31,7 @@ The language data itself is scraped from the academic repository [Ethnologue](ww
   * Languages sometimes have official names, as well as colloquial or local names. 
   * Has to be an array, as languages necessarily have many names: English, Inglês, 英語
 * Writing Systems.
-  * There are 125 known writing systems.
+  * There are 125 known writing systems, categorized by [Scriptsource](http://scriptsource.org/cms/scripts/page.php?&id=)
 * Genealogy or [Language Family](https://en.wikipedia.org/wiki/Language_family)
   * Genealogy is the historical study of the development of language. How languages change over space and time is encoded in a nesting structure. Ex. [Indo-European] > [Germanic] > ... > [English]
 * Demographics
