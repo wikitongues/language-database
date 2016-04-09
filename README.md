@@ -28,7 +28,8 @@ Linguistics also interacts and co-mingles with other fields of research.
 Generally speaking, linguistics has a broad potential to help us understand our relationship to the natural world. Lingustics has such a wide array of application because language is the vehicle through which humans understand the world. Language is everything; language is life.
 
 #Current Solution
-Wikitongues currently uses a relational spreadsheet service called Airtable to handle all of our language data. You can see a representation [here](https://airtable.com/shrc1ZmAbcrBojRTy/tblm5O4Hj7gnfYYuR)
+Wikitongues currently uses a relational spreadsheet service called Airtable to handle all of our language data. You can see a representation [here](https://airtable.com/shrc1ZmAbcrBojRTy/tblm5O4Hj7gnfYYuR).
+
 The language data itself is scraped from the academic repository [Ethnologue](www.ethnologue.com)
 
 ##Terms
