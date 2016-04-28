@@ -12,10 +12,10 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 
 For language names, an array of all of the strings used in naming a language
 
-#First proposal
+##First proposal
 User owns books
 
-##Sample Corpus
+###Sample Corpus
 |#|Value|Type|Meta|…|
 |---|---|---|---|---|
 |ID|hello|text||…|
@@ -28,13 +28,13 @@ For languages that are not written, video will be used. For video to me indexed 
 * if the phrase pair is between text and video, the text is enough to index the video
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
-##Sample Poly User
+###Sample Poly User
 |#|User Name|OAuth|Books|…|
 |---|---|---|---|---|
 |ID|Johnathan Swift|Token|[Reference to join matrix]|…|
 |…|…|…|…|
 
-##Join Matrix
+###Join Matrix
 |ISO (Language 1)|ISO (Language 2)|
 |---|---|
 |Phrase ID 1|Phrase ID 2|
@@ -43,20 +43,20 @@ For languages that are not written, video will be used. For video to me indexed 
 |Phrase ID 7|Phrase ID 8|
 |…|…|
 
-#Second proposal
+##Second proposal
 Books reference user
 
-##Sample Poly User
+###Sample Poly User
 |#|User Name|OAuth|…|
 |---|---|---|---|
 |ID|Vladimir Nabakov|Token||…|
 |…|…|…|
 
-##Books table
+###Books table
 |#|title|Source language ISO|Target language ISO|User|…|
 |ID|Russian for Noobs|ENG|LAP|Author's ID|…|
 
-##Language Pair Corpus
+###Language Pair Corpus
 |#|ISO Language 1(Eng)|ISO Language 2(Rus)|Book ID|…|
 |ID|Hello|Привет! (Privyet!)|Book ID|…|
 
