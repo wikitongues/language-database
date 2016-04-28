@@ -25,7 +25,6 @@ For language names, an array of all of the strings used in naming a language
 |…|…|
 
 Each language has a corpus table with all of the phrases in that language. Each user owns their authored books.
-
 ###Sample Corpus (English)
 |ID|Value|Type|Meta|…|
 |---|---|---|---|---|
