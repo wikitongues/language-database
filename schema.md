@@ -83,13 +83,14 @@ Single universal corpus. In this proposal, dictionaries are aggregates of corpus
 |ID|Interface ID|Book ID|…|
 |…|…|…|…|
 
-Duplicate problem
----
+##Duplicate problem
 The following table illustrates a data duplicate problem.
+
 |#|…|Source Value|Target Value|…|
 |---|---|---|---|---|
 |ID|…|Hello|Привет! (Privyet!)|…|
 |ID|…|Привет! (Privyet!)|Hello|…|
+
 Both phrase entries are the same in practice.
 
 ##Open questions:
