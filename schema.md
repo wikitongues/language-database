@@ -10,6 +10,10 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 |`CMN`|[Chinese (Mandarin), Beifang Fangyan, Guanhua, Guoyu, Hanyu, Huayu, Mandarin, Northern Chinese, Putonghua, Standard Chinese, Zhongguohua, Zhongwen,…]|…|
 |…|…|…|
 
+For language names, an array of all of the strings used in naming a language
+
+#First proposal
+
 ##Sample Corpus
 |#|Value|Type|Meta|…|
 |---|---|---|---|---|
@@ -24,9 +28,9 @@ For languages that are not written, video will be used. For video to me indexed 
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
 ##Sample Poly User
-|#|User Name|Books|…|
+|#|User Name|OAuthBooks|…|
 |---|---|---|---|---|
-|ID|Johnathan Swift|[Reference to join matrix]|…|
+|ID|Johnathan Swift|Token|[Reference to join matrix]|…|
 |…|…|…|…|
 
 ##Join Matrix
@@ -37,3 +41,21 @@ For languages that are not written, video will be used. For video to me indexed 
 |Phrase ID 5|Phrase ID 6|
 |Phrase ID 7|Phrase ID 8|
 |…|…|
+
+#Second proposal
+
+##Sample Poly User
+|#|User Name|OAuth|…|
+|---|---|---|---|
+|ID|Vladimir Nabakov|Token||…|
+|…|…|…|
+
+##Books table
+|#|title|Source language ISO|Target language ISO|User|…|
+|ID|Russian for Noobs|ENG|LAP|Author's ID|…|
+
+##Language Pair Corpus
+|#|ISO Language 1(Eng)|ISO Language 2(Rus)|Book ID|…|
+|ID|Hello|Привет! (Privyet!)|Book ID|…|
+
+The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
