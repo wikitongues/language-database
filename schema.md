@@ -5,7 +5,7 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 
 ##Index table
 |ISO|Names|…|
-|---|---|---|
+|---|*---*|---|
 |`ENG`|[English, Inglês, Anglais,…]|…|
 |`CMN`|[Chinese (Mandarin), Beifang Fangyan, Guanhua, Guoyu, Hanyu, Huayu, Mandarin, Northern Chinese, Putonghua, Standard Chinese, Zhongguohua, Zhongwen,…]|…|
 |…|…|…|
@@ -26,8 +26,8 @@ For languages that are not written, video will be used. For video to me indexed 
 ##Sample Poly User
 |#|User Name|Books|…|
 |---|---|---|---|---|
-|ID|Johnathan Swift|[Reference to join matrix]||
-|…|…|…|
+|ID|Johnathan Swift|[Reference to join matrix]|…|
+|…|…|…|…|
 
 ##Join Matrix
 |ISO (Language 1)|ISO (Language 2)|
