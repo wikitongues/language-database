@@ -60,7 +60,7 @@ Books reference user
 |…|…|…|…|…|…|
 
 ###Language Pair Corpus
-|#|Language 1 ID (Eng)|Language 2 ID (Rus)|Book ID|…|
+|#|Language 1 ID (*Eng*)|Language 2 ID (*Rus*)|Book ID|…|
 |---|---|---|---|---|
 |ID|Hello|Привет! (Privyet!)|Book ID|…|
 |…|…|…|…|…|
