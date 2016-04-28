@@ -49,8 +49,8 @@ Books reference user
 ###Sample Poly User
 |#|User Name|OAuth|…|
 |---|---|---|---|
-|ID|Vladimir Nabakov|Token||…|
-|…|…|…|
+|ID|Vladimir Nabakov|Token|…|
+|…|…|…|…|
 
 ###Books table
 |#|title|Source language ISO|Target language ISO|User|…|
