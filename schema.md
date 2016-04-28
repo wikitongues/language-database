@@ -28,7 +28,7 @@ For languages that are not written, video will be used. For video to me indexed 
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
 ##Sample Poly User
-|#|User Name|OAuthBooks|…|
+|#|User Name|OAuth|Books|…|
 |---|---|---|---|---|
 |ID|Johnathan Swift|Token|[Reference to join matrix]|…|
 |…|…|…|…|
