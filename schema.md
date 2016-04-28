@@ -2,16 +2,16 @@
 The following concepts were developed during the hackathon hosted by the Recurse Center in New York, USA on April 9th, 2016.
 
 ##Basic terms
-* Phrase
+* ####Phrase
 
    Text or video unit
-* Phrase pair
+* ####Phrase pair
 
    Relationship between phrases implying translation between two languages
-* Dictionary
+* ####Dictionary
 
    Collection of phrase pairs
-* Book
+* ####Book
 
    Container for dictionary with extra user metadata such as titles, descriptions, authorship etc...
 
