@@ -13,8 +13,9 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 
 For language names, an array of all of the strings used in naming a language
 
-##First proposal
-User owns books
+##Proposal 1
+Each language has a corpus table with all of the phrases in that language.
+Each user owns their authored books.
 
 ###Sample Corpus (English)
 |#|Value|Type|Meta|…|
@@ -42,7 +43,7 @@ For languages that are not written, video will be used. For video to me indexed 
 |Corpus record ID 1|Corpus record ID 2|
 |…|…|
 
-##Second proposal
+##Proposal 2
 Books reference user
 
 ###Sample Poly User
@@ -65,7 +66,7 @@ Books reference user
 
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
 
-##Third proposal
+##Proposal 3
 Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
 
 ###Full corpus (phrase list)
