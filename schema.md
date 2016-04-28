@@ -12,6 +12,18 @@ The index table accounts for all languages in the world.
 For language names, an array of all of the strings used in naming a language
 
 #Method 1
+###Sample Poly User
+|ID|User Name|OAuth|Books|…|
+|---|---|---|---|---|
+|#|Johnathan Swift|Token|[Reference to book table]|…|
+|…|…|…|…|
+
+###Book Table
+|Language 1 ID (`Eng`)|Language 2 ID (`Spa`)|
+|---|---|
+|Corpus record ID 1|Corpus record ID 2|
+|…|…|
+
 Each language has a corpus table with all of the phrases in that language. Each user owns their authored books.
 
 ###Sample Corpus (English)
@@ -28,17 +40,6 @@ For languages that are not written, video will be used. For video to be indexed 
 * if the phrase pair is between text and video, the text is enough to index the video
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
-###Sample Poly User
-|ID|User Name|OAuth|Books|…|
-|---|---|---|---|---|
-|#|Johnathan Swift|Token|[Reference to book table]|…|
-|…|…|…|…|
-
-###Book Table ()
-|Language 1 ID (`Eng`)|Language 2 ID (`Spa`)|
-|---|---|
-|Corpus record ID 1|Corpus record ID 2|
-|…|…|
 
 #Method 2
 Books reference user
