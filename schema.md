@@ -20,22 +20,22 @@ Each language has a corpus table with all of the phrases in that language. Each 
 |ID|hello|text||…|
 |ID|link/to/resource|video|olá|…|
 |…|…|…|…|…|
-Each record is a phrase. Multiple phrasebooks can refer to corpus record.
+Each record is a phrase. Phrases can exist in multiple dictionaries or phrase books.
 
 For written languages, you can have both text entries and video entries.
 
-For languages that are not written, video will be used. For video to me indexed by meaning, textual metadata needs to exist. The video meta information will include one of the following:
+For languages that are not written, video will be used. For video to be indexed by meaning, textual metadata needs to exist. The video meta information will include one of the following:
 * if the phrase pair is between text and video, the text is enough to index the video
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
 ###Sample Poly User
 |#|User Name|OAuth|Books|…|
 |---|---|---|---|---|
-|ID|Johnathan Swift|Token|[Reference to join matrix]|…|
+|ID|Johnathan Swift|Token|[Reference to book table]|…|
 |…|…|…|…|
 
-###Join Matrix
-|Language 1 ID|Language 2 ID|
+###Book Table ()
+|Language 1 ID (`Eng`)|Language 2 ID (`Spa`)|
 |---|---|
 |Corpus record ID 1|Corpus record ID 2|
 |…|…|
