@@ -2,6 +2,8 @@
 The following concepts were developed during the hackathon hosted by the Recurse Center in New York, USA on April 9th, 2016.
 
 ##Index table
+The index table accounts for all languages in the world.
+
 |ID|Names|…|
 |---|:---:|---|
 |`ENG`|[English, Inglês, Anglais,…]|…|
