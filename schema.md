@@ -5,16 +5,17 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 
 ##Index table
 |ISO|Names|
-|---|---|
-|`ENG`|[English, Inglês, Anglais,...]|
-|`CMN`|[Chinese (Mandarin), Beifang Fangyan, Guanhua, Guoyu, Hanyu, Huayu, Mandarin, Northern Chinese, Putonghua, Standard Chinese, Zhongguohua, Zhongwen,...]|
+|---|---|...|
+|`ENG`|[English, Inglês, Anglais,...]|...|
+|`CMN`|[Chinese (Mandarin), Beifang Fangyan, Guanhua, Guoyu, Hanyu, Huayu, Mandarin, Northern Chinese, Putonghua, Standard Chinese, Zhongguohua, Zhongwen,...]|...|
+|...|...|...|
 
 ##Sample Corpus
-|#|Value|Type|Meta|
-|---|---|---|---|
-|ID|hello|text||
-|ID|link/to/resource|video|hello|
-|...|...|...|...|
+|#|Value|Type|Meta|...|
+|---|---|---|---|...|
+|ID|hello|text||...|
+|ID|link/to/resource|video|hello|...|
+|...|...|...|...|...|
 
 For written languages, you can have both text entries and video entries.
 
