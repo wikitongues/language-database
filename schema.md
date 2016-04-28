@@ -34,7 +34,7 @@ Each language has a corpus table with all of the phrases in that language. Each 
 ###Books Table
 Each book would have it's own table defining which phrases it owns
 
-|Source records `Eng`|Target records `Spa`)|
+|Source records `Eng`|Target records `Spa`|
 |---|---|
 |Record #|Record #|
 |…|…|
@@ -56,7 +56,7 @@ For languages that are not written, video will be used. For video to be indexed 
 * if the phrase pair is between text and video, the text is enough to index the video
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
-Question: reference books on user table or author on books table?
+`Question: reference books on user table or author on books table?`
 
 #Method 2
 A centralized books table references each author. Each language pair has its own unique corpus table. Dictionaries are defined in belongs-to relationships as phrase pair book IDs.
@@ -68,10 +68,10 @@ A centralized books table references each author. Each language pair has its own
 ###Books table
 |ID|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
-|#|Russian for Noobs|`Eng`|`Rus`|Author's ID|…|
+|#|Russian for Noobs|`Eng`|`Rus`|Author's #|…|
 |…|…|…|…|…|…|
 ###Language Pair Corpus
-|ID|Language 1 ID (`Eng`)|Language 2 ID (`Rus`)|Book ID|…|
+|ID|Language 1 ID (`Eng`)|Language 2 ID (`Rus`)|Book #|…|
 |---|---|---|---|---|
 |#|Hello|Привет! (Privyet!)|Book ID|…|
 |…|…|…|…|…|
