@@ -5,7 +5,7 @@ The following concepts were developed during the hackathon hosted by the Recurse
 The [International Standards Organization](http://www.iso.org/iso/home.html), along with the [Summer Institute for Linguistics](http://www.sil.org/) has devised an ISO code for languages that has seen six revisions so far. Wikitongues uses the third varient, ISO 639-3. Read more on [Wikipedia](https://en.wikipedia.org/wiki/ISO_639)
 
 ##Index table
-|ISO|Names|…|
+|ID|Names|…|
 |---|:---:|---|
 |`ENG`|[English, Inglês, Anglais,…]|…|
 |`CMN`|[Chinese (Mandarin), Beifang Fangyan, Guanhua, Guoyu, Hanyu, Huayu, Mandarin, Northern Chinese, Putonghua, Standard Chinese, Zhongguohua, Zhongwen,…]|…|
@@ -36,7 +36,7 @@ For languages that are not written, video will be used. For video to me indexed 
 |…|…|…|…|
 
 ###Join Matrix
-|ISO (Language 1)|ISO (Language 2)|
+|Language 1 ID|Language 2 ID|
 |---|---|
 |Phrase ID 1|Phrase ID 2|
 |Phrase ID 3|Phrase ID 4|
@@ -54,15 +54,22 @@ Books reference user
 |…|…|…|…|
 
 ###Books table
-|#|Title|Source language ISO|Target language ISO|User|…|
+|#|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
 |ID|Russian for Noobs|Eng|Rus|Author's ID|…|
 |…|…|…|…|…|…|
 
 ###Language Pair Corpus
-|#|ISO Language 1 (Eng)|ISO Language 2 (Rus)|Book ID|…|
+|#|Language 1 ID (Eng)|Language 2 ID (Rus)|Book ID|…|
 |---|---|---|---|---|
 |ID|Hello|Привет! (Privyet!)|Book ID|…|
 |…|…|…|…|…|
 
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
+
+##Third proposal
+Universal corpus
+###Full corpus (phrase list)
+|#|Source Language ID|Target Language ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|
+
+
