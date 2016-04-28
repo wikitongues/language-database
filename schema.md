@@ -1,6 +1,5 @@
 #Wikitongues Database
 The following concepts were developed during the hackathon hosted by the Recurse Center in New York, USA on April 9th, 2016.
-
 ##Basic terms
 * ####Phrase
 
@@ -32,7 +31,6 @@ Each language has a corpus table with all of the phrases in that language. Each 
 |---|---|---|---|---|
 |#|Johnathan Swift|Token|[Reference to book table]|…|
 |…|…|…|…|
-
 ###Book Table
 Each book would have it's own table defining which phrases it owns
 
@@ -43,7 +41,6 @@ Each book would have it's own table defining which phrases it owns
 
 We know which language corpus to refer to by the table headers.
 I wonder if the book reference on the user table couldnt be something along the lines of [{eng:spa,{english corpus record #:spanish corpus record #, english corpus record #:spanish corpus record #}}]
-
 ###Sample Corpus (English)
 |ID|Value|Type|Meta|…|
 |---|---|---|---|---|
@@ -58,46 +55,37 @@ For languages that are not written, video will be used. For video to be indexed 
 * if the phrase pair is between text and video, the text is enough to index the video
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
-
 #Method 2
 Books reference user
-
 ###Sample Poly User
 |ID|User Name|OAuth|…|
 |---|---|---|---|
 |#|Vladimir Nabakov|Token|…|
 |…|…|…|…|
-
 ###Books table
 |ID|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
 |#|Russian for Noobs|`Eng`|`Rus`|Author's ID|…|
 |…|…|…|…|…|…|
-
 ###Language Pair Corpus
 |ID|Language 1 ID (`Eng`)|Language 2 ID (`Rus`)|Book ID|…|
 |---|---|---|---|---|
 |#|Hello|Привет! (Privyet!)|Book ID|…|
 |…|…|…|…|…|
-
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
-
 #Method 3
 Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
-
 ###Full corpus (phrase list)
 |ID|Source Language ID|Target Language ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
 |---|---|---|---|---|---|---|---|---|---|---|
 |#|`Eng`|`Rus`|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
 |#|`Eng`|`Rus`|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
 |…|…|…|…|…|…|…|…|…|…|…|
-
 ###Interface Table
 |ID|Interface #|Book #|…|
 |---|---|---|---|
 |#|Interface ID|Book ID|…|
 |…|…|…|…|
-
 ###Duplicate problem
 The following table illustrates a data duplicate problem.
 
@@ -105,14 +93,10 @@ The following table illustrates a data duplicate problem.
 |---|---|---|---|---|
 |#|…|Hello|Привет! (Privyet!)|…|
 |#|…|Привет! (Privyet!)|Hello|…|
-
 Both phrase entries are the same in practice.
-
 ##Open questions:
 1. To have source and target language ids referenced in both book table and corpus table?
 2. How to define source language / target language positions in phrase display?
-
-
 #Notes:
 ###ISO 639-3
 The [International Standards Organization](http://www.iso.org/iso/home.html), along with the [Summer Institute for Linguistics](http://www.sil.org/) has devised an ISO code for languages that has seen six revisions so far. Wikitongues uses the third varient, ISO 639-3. Read more on [Wikipedia](https://en.wikipedia.org/wiki/ISO_639)
