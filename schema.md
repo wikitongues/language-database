@@ -76,7 +76,7 @@ The Language pair corpus or Translation corpus represents all of the phrases tha
 #Method 3
 Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
 ###Full corpus (phrase list)
-|ID|Source Language ID|Target Language ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
+|ID|Source Lang ID|Target Lang ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
 |---|---|---|---|---|---|---|---|---|---|---|
 |#|`Eng`|`Rus`|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
 |#|`Eng`|`Rus`|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
@@ -97,6 +97,7 @@ Both phrase entries are the same in practice.
 ##Open questions:
 1. To have source and target language ids referenced in both book table and corpus table?
 2. How to define source language / target language positions in phrase display?
+
 #Notes:
 ###ISO 639-3
 The [International Standards Organization](http://www.iso.org/iso/home.html), along with the [Summer Institute for Linguistics](http://www.sil.org/) has devised an ISO code for languages that has seen six revisions so far. Wikitongues uses the third varient, ISO 639-3. Read more on [Wikipedia](https://en.wikipedia.org/wiki/ISO_639)
