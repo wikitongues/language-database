@@ -12,6 +12,7 @@ The index table accounts for all languages in the world.
 For language names, an array of all of the strings used in naming a language
 
 #Method 1
+Each language has a corpus table with all of the phrases in that language. Each user owns their authored books.
 ###Sample Poly User
 |ID|User Name|OAuth|Books|…|
 |---|---|---|---|---|
@@ -24,7 +25,6 @@ For language names, an array of all of the strings used in naming a language
 |Corpus record ID 1|Corpus record ID 2|
 |…|…|
 
-Each language has a corpus table with all of the phrases in that language. Each user owns their authored books.
 ###Sample Corpus (English)
 |ID|Value|Type|Meta|…|
 |---|---|---|---|---|
