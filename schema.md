@@ -24,8 +24,11 @@ Each book would have it's own table defining which phrases it owns
 
 |Language 1 ID (`Eng`)|Language 2 ID (`Spa`)|
 |---|---|
-|Corpus record ID 1|Corpus record ID 2|
+|Corpus # record #|Corpus # record #|
 |…|…|
+
+We know which language corpus to refer to by the table headers.
+I wonder if the book reference on the user table couldnt be something along the lines of [{eng:spa,{english corpus record #:spanish corpus record #, english corpus record #:spanish corpus record #}}]
 
 ###Sample Corpus (English)
 |ID|Value|Type|Meta|…|
