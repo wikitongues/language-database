@@ -16,12 +16,13 @@ For language names, an array of all of the strings used in naming a language
 ##First proposal
 User owns books
 
-###Sample Corpus
+###Sample Corpus (English)
 |#|Value|Type|Meta|…|
 |---|---|---|---|---|
 |ID|hello|text||…|
 |ID|link/to/resource|video|olá|…|
 |…|…|…|…|…|
+Each record is a phrase. Multiple phrasebooks can refer to corpus record.
 
 For written languages, you can have both text entries and video entries.
 
@@ -38,7 +39,7 @@ For languages that are not written, video will be used. For video to me indexed 
 ###Join Matrix
 |Language 1 ID|Language 2 ID|
 |---|---|
-|Phrase ID 1|Phrase ID 2|
+|Corpus record ID 1|Corpus record ID 2|
 |…|…|
 
 ##Second proposal
