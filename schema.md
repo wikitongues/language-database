@@ -1,4 +1,4 @@
 #ISO
 |ISO|Names|
 |---|---|
-|ENG|[English, Inglês, Anglais,...]|
+|`ENG`|[English, Inglês, Anglais,...]|
