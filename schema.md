@@ -13,13 +13,14 @@ For language names, an array of all of the strings used in naming a language
 
 #Method 1
 Each language has a corpus table with all of the phrases in that language. Each user owns their authored books.
-###Sample Poly User
+###User Table
 |ID|User Name|OAuth|Books|…|
 |---|---|---|---|---|
 |#|Johnathan Swift|Token|[Reference to book table]|…|
 |…|…|…|…|
 
 ###Book Table
+Each book would have it's own table defining which phrases it owns
 |Language 1 ID (`Eng`)|Language 2 ID (`Spa`)|
 |---|---|
 |Corpus record ID 1|Corpus record ID 2|
