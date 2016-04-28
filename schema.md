@@ -7,14 +7,12 @@ The index table accounts for all languages in the world.
 |ID|Names|…|
 |---|:---:|---|
 |`ENG`|[English, Inglês, Anglais,…]|…|
-|`CMN`|[Chinese (Mandarin), Beifang Fangyan, Guanhua, Guoyu, Hanyu, Huayu, Mandarin, Northern Chinese, Putonghua, Standard Chinese, Zhongguohua, Zhongwen,…]|…|
+|`CMN`|[Chinese (Mandarin), Beifang Fangyan, Guanhua,…]|…|
 |…|…|…|
-
 For language names, an array of all of the strings used in naming a language
 
-#Proposal 1
-Each language has a corpus table with all of the phrases in that language.
-Each user owns their authored books.
+#Method 1
+Each language has a corpus table with all of the phrases in that language. Each user owns their authored books.
 
 ###Sample Corpus (English)
 |#|Value|Type|Meta|…|
@@ -42,7 +40,7 @@ For languages that are not written, video will be used. For video to me indexed 
 |Corpus record ID 1|Corpus record ID 2|
 |…|…|
 
-#Proposal 2
+#Method 2
 Books reference user
 
 ###Sample Poly User
@@ -65,7 +63,7 @@ Books reference user
 
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
 
-#Proposal 3
+#Method 3
 Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
 
 ###Full corpus (phrase list)
