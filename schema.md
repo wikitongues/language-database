@@ -1,4 +1,5 @@
 #Wikitongues Database
+The following concepts were developed during the hackathon hosted by the Recurse Center in New York, USA on April 9th, 2016.
 
 ##ISO 639-3
 The [International Standards Organization](http://www.iso.org/iso/home.html), along with the [Summer Institute for Linguistics](http://www.sil.org/) has devised an ISO code for languages that has seen six revisions so far. Wikitongues uses the third varient, ISO 639-3. Read more on [Wikipedia](https://en.wikipedia.org/wiki/ISO_639)
@@ -53,13 +54,15 @@ Books reference user
 |…|…|…|…|
 
 ###Books table
-|#|title|Source language ISO|Target language ISO|User|…|
+|#|Title|Source language ISO|Target language ISO|User|…|
 |---|---|---|---|---|---|
-|ID|Russian for Noobs|ENG|LAP|Author's ID|…|
+|ID|Russian for Noobs|Eng|Rus|Author's ID|…|
+|…|…|…|…|…|…|
 
 ###Language Pair Corpus
-|#|ISO Language 1(Eng)|ISO Language 2(Rus)|Book ID|…|
+|#|ISO Language 1 (Eng)|ISO Language 2 (Rus)|Book ID|…|
 |---|---|---|---|---|
 |ID|Hello|Привет! (Privyet!)|Book ID|…|
+|…|…|…|…|…|
 
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
