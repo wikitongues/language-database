@@ -21,6 +21,7 @@ Each language has a corpus table with all of the phrases in that language. Each 
 
 ###Book Table
 Each book would have it's own table defining which phrases it owns
+
 |Language 1 ID (`Eng`)|Language 2 ID (`Spa`)|
 |---|---|
 |Corpus record ID 1|Corpus record ID 2|
