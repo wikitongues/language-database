@@ -5,7 +5,7 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 
 ##Index table
 |ISO|Names|…|
-|---|*---*|---|
+|---|:---:|---|
 |`ENG`|[English, Inglês, Anglais,…]|…|
 |`CMN`|[Chinese (Mandarin), Beifang Fangyan, Guanhua, Guoyu, Hanyu, Huayu, Mandarin, Northern Chinese, Putonghua, Standard Chinese, Zhongguohua, Zhongwen,…]|…|
 |…|…|…|
