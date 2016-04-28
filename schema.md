@@ -15,10 +15,10 @@ For language names, an array of all of the strings used in naming a language
 Each language has a corpus table with all of the phrases in that language. Each user owns their authored books.
 
 ###Sample Corpus (English)
-|#|Value|Type|Meta|…|
+|ID|Value|Type|Meta|…|
 |---|---|---|---|---|
-|ID|hello|text||…|
-|ID|link/to/resource|video|olá|…|
+|#|hello|text||…|
+|#|link/to/resource|video|olá|…|
 |…|…|…|…|…|
 Each record is a phrase. Phrases can exist in multiple dictionaries or phrase books.
 
@@ -29,9 +29,9 @@ For languages that are not written, video will be used. For video to be indexed 
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
 ###Sample Poly User
-|#|User Name|OAuth|Books|…|
+|ID|User Name|OAuth|Books|…|
 |---|---|---|---|---|
-|ID|Johnathan Swift|Token|[Reference to book table]|…|
+|#|Johnathan Swift|Token|[Reference to book table]|…|
 |…|…|…|…|
 
 ###Book Table ()
@@ -44,21 +44,21 @@ For languages that are not written, video will be used. For video to be indexed 
 Books reference user
 
 ###Sample Poly User
-|#|User Name|OAuth|…|
+|ID|User Name|OAuth|…|
 |---|---|---|---|
-|ID|Vladimir Nabakov|Token|…|
+|#|Vladimir Nabakov|Token|…|
 |…|…|…|…|
 
 ###Books table
-|#|Title|Source language ID|Target language ID|User|…|
+|ID|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
-|ID|Russian for Noobs|`Eng`|`Rus`|Author's ID|…|
+|#|Russian for Noobs|`Eng`|`Rus`|Author's ID|…|
 |…|…|…|…|…|…|
 
 ###Language Pair Corpus
-|#|Language 1 ID (`Eng`)|Language 2 ID (`Rus`)|Book ID|…|
+|ID|Language 1 ID (`Eng`)|Language 2 ID (`Rus`)|Book ID|…|
 |---|---|---|---|---|
-|ID|Hello|Привет! (Privyet!)|Book ID|…|
+|#|Hello|Привет! (Privyet!)|Book ID|…|
 |…|…|…|…|…|
 
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
@@ -67,25 +67,25 @@ The Language pair corpus or Translation corpus represents all of the phrases tha
 Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
 
 ###Full corpus (phrase list)
-|#|Source Language ID|Target Language ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
+|ID|Source Language ID|Target Language ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
 |---|---|---|---|---|---|---|---|---|---|---|
-|ID|`Eng`|`Rus`|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
-|ID|`Eng`|`Rus`|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
+|#|`Eng`|`Rus`|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
+|#|`Eng`|`Rus`|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
 |…|…|…|…|…|…|…|…|…|…|…|
 
 ###Interface Table
-|#|Interface #|Book #|…|
+|ID|Interface #|Book #|…|
 |---|---|---|---|
-|ID|Interface ID|Book ID|…|
+|#|Interface ID|Book ID|…|
 |…|…|…|…|
 
 ###Duplicate problem
 The following table illustrates a data duplicate problem.
 
-|#|…|Source Value|Target Value|…|
+|ID|…|Source Value|Target Value|…|
 |---|---|---|---|---|
-|ID|…|Hello|Привет! (Privyet!)|…|
-|ID|…|Привет! (Privyet!)|Hello|…|
+|#|…|Hello|Привет! (Privyet!)|…|
+|#|…|Привет! (Privyet!)|Hello|…|
 
 Both phrase entries are the same in practice.
 
