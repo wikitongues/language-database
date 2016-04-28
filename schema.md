@@ -75,7 +75,7 @@ A centralized books table references each author. Each language pair has its own
 |…|…|…|…|…|
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
 
-Downsides: 7000^7000 = 49 million language pairs.
+Downsides: 7000^7000 = 49 million language pairs. Outrage.
 #Method 3
 Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
 ###Full corpus (phrase list)
