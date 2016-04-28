@@ -39,9 +39,6 @@ For languages that are not written, video will be used. For video to me indexed 
 |Language 1 ID|Language 2 ID|
 |---|---|
 |Phrase ID 1|Phrase ID 2|
-|Phrase ID 3|Phrase ID 4|
-|Phrase ID 5|Phrase ID 6|
-|Phrase ID 7|Phrase ID 8|
 |…|…|
 
 ##Second proposal
