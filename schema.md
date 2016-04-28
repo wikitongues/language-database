@@ -9,5 +9,4 @@
 |#|Value|Type|Meta|
 |---|---|---|---|
 |ID|hello|text||
-|---|---|---|---|
 |ID|link/to/resource|video|hello|
