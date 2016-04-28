@@ -56,7 +56,7 @@ Books reference user
 ###Books table
 |#|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
-|ID|Russian for Noobs|Eng|Rus|Author's ID|…|
+|ID|Russian for Noobs|`Eng`|`Rus`|Author's ID|…|
 |…|…|…|…|…|…|
 
 ###Language Pair Corpus
@@ -73,8 +73,8 @@ Single universal corpus. In this proposal, dictionaries are aggregates of corpus
 ###Full corpus (phrase list)
 |#|Source Language ID|Target Language ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
 |---|---|---|---|---|---|---|---|---|---|---|
-|ID|Eng|Rus|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
-|ID|Eng|Rus|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
+|ID|`Eng`|`Rus`|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
+|ID|`Eng`|`Rus`|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
 |…|…|…|…|…|…|…|…|…|…|…|
 
 ###Interface Table
