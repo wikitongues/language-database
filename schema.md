@@ -74,7 +74,7 @@ Universal corpus
 |---|---|---|---|---|---|---|---|---|---|---|
 |ID|Eng|Rus|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
 |ID|Eng|Rus|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
-…|…|…|…|…|…|…|…|…|…|…|
+|…|…|…|…|…|…|…|…|…|…|…|
 
 ###Interface Table
 |#|Interface #|Book #|…|
