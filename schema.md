@@ -40,6 +40,7 @@ Each book would have it's own table defining which phrases it owns
 |…|…|
 
 We know which language corpus to refer to by the table headers.
+
 I wonder if the book reference on the user table couldnt be something along the lines of [{eng:spa,{english corpus record #:spanish corpus record #, english corpus record #:spanish corpus record #}}]
 ###`Eng` Corpus
 |ID|Value|Type|Meta|…|
@@ -56,8 +57,8 @@ For languages that are not written, video will be used. For video to be indexed 
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
 #Method 2
-Books reference user
-###Sample Poly User
+A centralized books table references each author. Each language pair has its own unique corpus table.
+###User Table
 |ID|User Name|OAuth|…|
 |---|---|---|---|
 |#|Vladimir Nabakov|Token|…|
