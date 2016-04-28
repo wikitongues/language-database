@@ -2,14 +2,14 @@
 The following concepts were developed during the hackathon hosted by the Recurse Center in New York, USA on April 9th, 2016.
 
 ##Basic terms
-*Phrase
-  text or video unit
-*Phrase pair
-  relationship between phrases implying translation between two languages
-*Dictionary
-  collection of phrase pairs
-*Book
-  container for dictionary with extra user metadata such as titles, descriptions, authorship etc...
+* Phrase
+   text or video unit
+* Phrase pair
+   relationship between phrases implying translation between two languages
+* Dictionary
+   collection of phrase pairs
+* Book
+   container for dictionary with extra user metadata such as titles, descriptions, authorship etc...
 
 ##Index table
 The index table accounts for all languages in the world.
