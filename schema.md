@@ -10,7 +10,7 @@ The following concepts were developed during the hackathon hosted by the Recurse
 
 For language names, an array of all of the strings used in naming a language
 
-##Proposal 1
+#Proposal 1
 Each language has a corpus table with all of the phrases in that language.
 Each user owns their authored books.
 
@@ -40,7 +40,7 @@ For languages that are not written, video will be used. For video to me indexed 
 |Corpus record ID 1|Corpus record ID 2|
 |…|…|
 
-##Proposal 2
+#Proposal 2
 Books reference user
 
 ###Sample Poly User
@@ -63,7 +63,7 @@ Books reference user
 
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
 
-##Proposal 3
+#Proposal 3
 Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
 
 ###Full corpus (phrase list)
@@ -79,7 +79,7 @@ Single universal corpus. In this proposal, dictionaries are aggregates of corpus
 |ID|Interface ID|Book ID|…|
 |…|…|…|…|
 
-##Duplicate problem
+###Duplicate problem
 The following table illustrates a data duplicate problem.
 
 |#|…|Source Value|Target Value|…|
