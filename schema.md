@@ -72,6 +72,6 @@ Universal corpus
 ###Full corpus (phrase list)
 |#|Source Language ID|Target Language ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
 |---|---|---|---|---|---|---|---|---|---|---|
-|ID|Eng|Rus|Hello|Привет! (Privyet!)|Text|Text|…|…|…|
-|ID|Eng|Rus|Hello|link/to/video|Text|Video|…|hello|…|
+|ID|Eng|Rus|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|
+|ID|Eng|Rus|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|
 
