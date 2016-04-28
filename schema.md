@@ -68,7 +68,8 @@ Books reference user
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
 
 ##Third proposal
-Universal corpus
+Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
+
 ###Full corpus (phrase list)
 |#|Source Language ID|Target Language ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -81,3 +82,16 @@ Universal corpus
 |---|---|---|---|
 |ID|Interface ID|Book ID|…|
 |…|…|…|…|
+
+Duplicate problem
+---
+The following table illustrates a data duplicate problem.
+|#|…|Source Value|Target Value|…|
+|---|---|---|---|---|
+|ID|…|Hello|Привет! (Privyet!)|…|
+|ID|…|Привет! (Privyet!)|Hello|…|
+Both phrase entries are the same in practice.
+
+##Open questions:
+1. To have source and target language ids referenced in both book table and corpus table?
+2. How to define source language / target language positions in phrase display?
