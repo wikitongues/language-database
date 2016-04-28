@@ -14,10 +14,10 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 |---|---|---|---|
 |ID|hello|text||
 |ID|link/to/resource|video|hello|
+|...|...|...|...|
 
 For written languages, you can have both text entries and video entries.
 
-For languages that are not written, video will be used.
-For video to me indexed by meaning, textual metadata needs to exist. The video meta information will include one of the following:
+For languages that are not written, video will be used. For video to me indexed by meaning, textual metadata needs to exist. The video meta information will include one of the following:
 * if the phrase pair is between text and video, the text is enough to index the video
 * if the phrase pair is between video and video, user input will be needed to index the video content.
