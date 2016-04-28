@@ -11,11 +11,11 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 |…|…|…|
 
 ##Sample Corpus
-|#|Value|Type|Meta|
-|---|---|---|---|
-|ID|hello|text||
-|ID|link/to/resource|video|olá|
-|…|…|…|…|
+|#|Value|Type|Meta|…|
+|---|---|---|---|---|
+|ID|hello|text||…|
+|ID|link/to/resource|video|olá|…|
+|…|…|…|…|…|
 
 For written languages, you can have both text entries and video entries.
 
@@ -33,7 +33,7 @@ For languages that are not written, video will be used. For video to me indexed 
 |ISO (Language 1)|ISO (Language 2)|
 |---|---|
 |Phrase ID 1|Phrase ID 2|
-|Phrase ID 1|Phrase ID 2|
-|Phrase ID 1|Phrase ID 2|
-|Phrase ID 1|Phrase ID 2|
+|Phrase ID 3|Phrase ID 4|
+|Phrase ID 5|Phrase ID 6|
+|Phrase ID 7|Phrase ID 8|
 |…|…|
