@@ -56,7 +56,7 @@ For languages that are not written, video will be used. For video to be indexed 
 * if the phrase pair is between text and video, the text is enough to index the video
 * if the phrase pair is between video and video, user input will be needed to index the video content.
 
-<p style="color:red">`Question: reference books on user table or author on books table?`</p>
+`Question: reference books on user table or author on books table?`
 
 #Method 2
 A centralized books table references each author. Each language pair has its own unique corpus table. Dictionaries are defined in belongs-to relationships as phrase pair book IDs.
