@@ -13,6 +13,7 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 For language names, an array of all of the strings used in naming a language
 
 #First proposal
+User owns books
 
 ##Sample Corpus
 |#|Value|Type|Meta|…|
@@ -43,6 +44,7 @@ For languages that are not written, video will be used. For video to me indexed 
 |…|…|
 
 #Second proposal
+Books reference user
 
 ##Sample Poly User
 |#|User Name|OAuth|…|
