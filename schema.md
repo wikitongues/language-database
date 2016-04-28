@@ -54,10 +54,12 @@ Books reference user
 
 ###Books table
 |#|title|Source language ISO|Target language ISO|User|…|
+|---|---|---|---|---|
 |ID|Russian for Noobs|ENG|LAP|Author's ID|…|
 
 ###Language Pair Corpus
 |#|ISO Language 1(Eng)|ISO Language 2(Rus)|Book ID|…|
+|---|---|---|---|
 |ID|Hello|Привет! (Privyet!)|Book ID|…|
 
 The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
