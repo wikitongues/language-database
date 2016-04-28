@@ -3,12 +3,16 @@ The following concepts were developed during the hackathon hosted by the Recurse
 
 ##Basic terms
 * Phrase
+
    text or video unit
 * Phrase pair
+
    relationship between phrases implying translation between two languages
 * Dictionary
+
    collection of phrase pairs
 * Book
+
    container for dictionary with extra user metadata such as titles, descriptions, authorship etc...
 
 ##Index table
