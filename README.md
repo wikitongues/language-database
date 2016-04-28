@@ -28,8 +28,12 @@ Linguistics also interacts and co-mingles with other fields of research.
 Generally speaking, linguistics has a broad potential to help us understand our relationship to the natural world. Lingustics has such a wide array of application because language is the vehicle through which humans understand the world. Language is everything; language is life.
 
 #Current Solution
-Wikitongues currently uses a relational spreadsheet service called Airtable to handle all of our language data. 
+Wikitongues currently uses a relational spreadsheet service called Airtable to handle all of our language data. You can see a representation [here](https://airtable.com/shrc1ZmAbcrBojRTy/tblm5O4Hj7gnfYYuR).
+
 The language data itself is scraped from the academic repository [Ethnologue](www.ethnologue.com)
+
+#Goal
+An API that can power Poly not only with external language data, but also to which we can add our own new data in the form of structured dictionaries in the case of Poly, or video as with the Oral Histories. 
 
 ##Terms
 * ISO
@@ -40,6 +44,6 @@ The language data itself is scraped from the academic repository [Ethnologue](ww
 * Writing Systems.
   * There are 125 known writing systems, categorized on [Scriptsource](http://scriptsource.org/cms/scripts/page.php?&id=)
 * Genealogy or [Language Family](https://en.wikipedia.org/wiki/Language_family)
-  * Genealogy is the historical study of the development of language. How languages change over space and time is encoded in a nesting structure. Ex. [Indo-European] > [Germanic] > ... > [English]
+  * Genealogy is the historical study of the development of language. How languages change over space and time is encoded in a nesting structure. Ex. [Indo-European] > [Germanic] > ... > [English]. A quick comparisson shows the difference in resolution between [Ethnologue](https://www.ethnologue.com/subgroups/english-1) (4 layers) and [Glottolog](http://glottolog.org/resource/languoid/id/stan1293) (10 layers)
 * Demographics
   * Demographic data is often either acquired by linguists on the field or compiled from census data. It is useful in strategizing where to focus our documentation activities.
