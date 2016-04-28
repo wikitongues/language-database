@@ -18,4 +18,4 @@ The [International Standards Organization](http://www.iso.org/iso/home.html), al
 For written languages, you can have both text entries and video entries.
 
 For languages that are not written, video will be used.
-••• The video meta information will include the
+⋅⋅⋅The video meta information will include the
