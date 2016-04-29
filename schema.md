@@ -50,15 +50,13 @@ We know which language corpus to refer to by the table headers.
 
 I wonder if the book reference on the user table couldnt be something along the lines of
 ```json
-[
    {
-      eng:spa
-      ,{
-         english corpus record #:spanish corpus record #,
-         english corpus record #:spanish corpus record #
+      "eng":"spa",
+      {
+         "english corpus record #":"spanish corpus record #",
+         "english corpus record #":"spanish corpus record #"
        }
     }
-  ]
 ```
 **`Eng` Corpus**
 
