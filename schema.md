@@ -88,7 +88,7 @@ A centralized books table references authors. Each *language pair* has its own u
 |…|…|…|…|…|
 The Language pair corpus or Translation corpus represents all of the phrases that exist between two languages.
 
-**Downsides: 7000^7000 = 49 million language pairs. Outrage.**
+**Downsides: 7000^7000 = 49 million language pairs, 49 million tables. Outrage.**
 
 ##Method 3
 
