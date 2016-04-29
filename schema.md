@@ -22,8 +22,8 @@ The index table accounts for all languages in the world.
 
 |ID|Names|…|
 |---|:---:|---|
-|`ENG`|[English, Inglês, Anglais,…]|…|
-|`CMN`|[Chinese (Mandarin), Beifang Fangyan, Guanhua,…]|…|
+|`eng`|[English, Inglês, Anglais,…]|…|
+|`cmn`|[Chinese (Mandarin), Beifang Fangyan, Guanhua,…]|…|
 |…|…|…|
 For language names, an array of all of the strings used in naming a language
 
@@ -41,7 +41,7 @@ Each language has a corpus table with all of the phrases in that language. Each 
 
 Each book would have it's own table defining which phrases it owns
 
-|Source records `Eng`|Target records `Spa`|
+|Source records `eng`|Target records `spa`|
 |---|---|
 |Record #|Record #|
 |…|…|
@@ -89,12 +89,13 @@ A centralized books table references authors. Each *language pair* has its own u
 
 |ID|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
-|#|Russian for Noobs|`Eng`|`Rus`|Author's #|…|
+|#|Russian for Noobs|`eng`|`rus`|Author's #|…|
+|#|Aprenda Cherokee|`por`|`chr`|Author's #|…|
 |…|…|…|…|…|…|
 
 **`Eng && Rus` Corpus**
 
-|ID|Language 1 ID (`Eng`)|Language 2 ID (`Rus`)|Book #|…|
+|ID|Language 1 ID (`eng`)|Language 2 ID (`rus`)|Book #|…|
 |---|---|---|---|---|
 |#|Hello|Привет! (Privyet!)|Book ID|…|
 |…|…|…|…|…|
@@ -110,8 +111,8 @@ Single universal corpus with all phrases. In this proposal, dictionaries are agg
 
 |ID|Source Lang ID|Target Lang ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
 |---|---|---|---|---|---|---|---|---|---|---|
-|#|`Eng`|`Rus`|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
-|#|`Eng`|`Rus`|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
+|#|`eng`|`rus`|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
+|#|`eng`|`rus`|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
 |…|…|…|…|…|…|…|…|…|…|…|
 
 **Interface Table**
