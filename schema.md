@@ -70,7 +70,7 @@ A centralized books table references authors. Each *language pair* has its own u
 |---|---|---|---|---|---|
 |#|Russian for Noobs|`Eng`|`Rus`|Author's #|…|
 |…|…|…|…|…|…|
-###Language Pair Corpus
+###`Eng && Rus` Corpus
 |ID|Language 1 ID (`Eng`)|Language 2 ID (`Rus`)|Book #|…|
 |---|---|---|---|---|
 |#|Hello|Привет! (Privyet!)|Book ID|…|
