@@ -82,15 +82,16 @@ A centralized books table references authors. Each *language pair* has its own u
 
 |ID|User Name|OAuth|…|
 |---|---|---|---|
-|#|Vladimir Nabakov|Token|…|
+|#|Daniel Udell|Token|…|
+|#|Frederico Andrade|Token|…|
 |…|…|…|…|
 
-**Book table**
+**Books table**
 
 |ID|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
-|#|Russian for Noobs|`eng`|`rus`|Author's #|…|
-|#|Aprenda Cherokee|`por`|`chr`|Author's #|…|
+|#|Polish for beginners|`eng`|`rus`|Author's #|…|
+|#|Aprenda Japonês|`por`|`jap`|Author's #|…|
 |…|…|…|…|…|…|
 
 **`Eng && Rus` Corpus**
