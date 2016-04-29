@@ -26,12 +26,12 @@ For language names, an array of all of the strings used in naming a language
 
 #Method 1
 Each language has a corpus table with all of the phrases in that language. Each user owns their authored books.
-###User Table
+**User Table**
 |ID|User Name|Books|…|
 |---|---|---|---|
 |#|Johnathan Swift|[Reference to book table]|…|
 |…|…|…|
-###Books Table
+**Books Table**
 Each book would have it's own table defining which phrases it owns
 
 |Source records `Eng`|Target records `Spa`|
@@ -42,7 +42,7 @@ Each book would have it's own table defining which phrases it owns
 We know which language corpus to refer to by the table headers.
 
 I wonder if the book reference on the user table couldnt be something along the lines of [{eng:spa,{english corpus record #:spanish corpus record #, english corpus record #:spanish corpus record #}}]
-###`Eng` Corpus
+**`Eng` Corpus**
 |ID|Value|Type|Meta|…|
 |---|---|---|---|---|
 |#|hello|text||…|
@@ -60,17 +60,17 @@ For languages that are not written, video will be used. For video to be indexed 
 
 #Method 2
 A centralized books table references authors. Each *language pair* has its own unique corpus table. Dictionaries are defined in belongs-to relationships as phrase pair book IDs.
-###User Table
+**User Table**
 |ID|User Name|OAuth|…|
 |---|---|---|---|
 |#|Vladimir Nabakov|Token|…|
 |…|…|…|…|
-###Books table
+**Books table**
 |ID|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
 |#|Russian for Noobs|`Eng`|`Rus`|Author's #|…|
 |…|…|…|…|…|…|
-###`Eng && Rus` Corpus
+**`Eng && Rus` Corpus**
 |ID|Language 1 ID (`Eng`)|Language 2 ID (`Rus`)|Book #|…|
 |---|---|---|---|---|
 |#|Hello|Привет! (Privyet!)|Book ID|…|
