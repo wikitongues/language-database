@@ -4,12 +4,15 @@ The following concepts were developed during the hackathon hosted by the Recurse
 * **Phrase**
 
    Text or video unit
+
 * **Phrase pair**
 
    Relationship between phrases implying translation between two languages
+
 * **Dictionary**
 
    Collection of phrase pairs
+
 * **Book**
 
    Container for dictionary with extra user metadata such as titles, descriptions, authorship etc...
@@ -29,11 +32,12 @@ Each language has a corpus table with all of the phrases in that language. Each 
 
 **User Table**
 
-|ID|User Name|Books|…|
+|ID|User Name|Books (Has many)|…|
 |---|---|---|---|
 |#|Johnathan Swift|[Reference to book table]|…|
-|…|…|…|
-**Books Table**
+|…|…|…|…|
+
+**Book Table**
 
 Each book would have it's own table defining which phrases it owns
 
@@ -44,8 +48,18 @@ Each book would have it's own table defining which phrases it owns
 
 We know which language corpus to refer to by the table headers.
 
-I wonder if the book reference on the user table couldnt be something along the lines of [{eng:spa,{english corpus record #:spanish corpus record #, english corpus record #:spanish corpus record #}}]
-
+I wonder if the book reference on the user table couldnt be something along the lines of
+```json
+[
+   {
+      eng:spa
+      ,{
+         english corpus record #:spanish corpus record #,
+         english corpus record #:spanish corpus record #
+       }
+    }
+  ]
+```
 **`Eng` Corpus**
 
 |ID|Value|Type|Meta|…|
@@ -73,7 +87,7 @@ A centralized books table references authors. Each *language pair* has its own u
 |#|Vladimir Nabakov|Token|…|
 |…|…|…|…|
 
-**Books table**
+**Book table**
 
 |ID|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
@@ -92,9 +106,9 @@ The Language pair corpus or Translation corpus represents all of the phrases tha
 
 ##Method 3
 
-Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
+Single universal corpus with all phrases. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
 
-**Full corpus (phrase list)**
+**Full corpus**
 
 |ID|Source Lang ID|Target Lang ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
 |---|---|---|---|---|---|---|---|---|---|---|
