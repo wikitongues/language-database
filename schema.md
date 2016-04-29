@@ -48,7 +48,7 @@ Each book would have it's own table defining which phrases it owns
 
 We know which language corpus to refer to by the table headers.
 
-I wonder if the book reference on the user table couldnt be something along the lines of
+`I wonder if the book reference on the user table couldnt be something along the lines of`
 ```json
   {
     "eng":"spa",
