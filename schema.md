@@ -63,7 +63,7 @@ For languages that are not written, video will be used. For video to be indexed 
 
 `Question: reference books on user table or author on books table?`
 
-#Method 2
+##Method 2
 A centralized books table references authors. Each *language pair* has its own unique corpus table. Dictionaries are defined in belongs-to relationships as phrase pair book IDs.
 
 **User Table**
@@ -89,20 +89,28 @@ A centralized books table references authors. Each *language pair* has its own u
 The Language pair corpus or Translation corpus represents all of the phrases that exist between two languages.
 
 **Downsides: 7000^7000 = 49 million language pairs. Outrage.**
-#Method 3
+
+##Method 3
+
 Single universal corpus. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
-###Full corpus (phrase list)
+
+**Full corpus (phrase list)**
+
 |ID|Source Lang ID|Target Lang ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
 |---|---|---|---|---|---|---|---|---|---|---|
 |#|`Eng`|`Rus`|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
 |#|`Eng`|`Rus`|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
 |…|…|…|…|…|…|…|…|…|…|…|
-###Interface Table
+
+**Interface Table**
+
 |ID|Interface #|Book #|…|
 |---|---|---|---|
 |#|Interface ID|Book ID|…|
 |…|…|…|…|
-###Duplicate problem
+
+**Duplicate problem**
+
 The following table illustrates a data duplicate problem.
 
 |ID|…|Source Value|Target Value|…|
@@ -110,10 +118,12 @@ The following table illustrates a data duplicate problem.
 |#|…|Hello|Привет! (Privyet!)|…|
 |#|…|Привет! (Privyet!)|Hello|…|
 Both phrase entries are the same in practice.
+
 ##Open questions:
+
 1. To have source and target language ids referenced in both book table and corpus table?
 2. How to define source language / target language positions in phrase display?
 
 #Notes:
-###ISO 639-3
+**ISO 639-3**
 The [International Standards Organization](http://www.iso.org/iso/home.html), along with the [Summer Institute for Linguistics](http://www.sil.org/) has devised an ISO code for languages that has seen six revisions so far. Wikitongues uses the third varient, ISO 639-3. Read more on [Wikipedia](https://en.wikipedia.org/wiki/ISO_639)
