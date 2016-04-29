@@ -20,11 +20,11 @@ The following concepts were developed during the hackathon hosted by the Recurse
 ##Index table
 The index table accounts for all languages in the world.
 
-|ID|Names|…|
-|---|:---:|---|
-|`eng`|[English, Inglês, Anglais,…]|…|
-|`cmn`|[Chinese (Mandarin), Beifang Fangyan, Guanhua,…]|…|
-|…|…|…|
+ | ID | Names | … |
+ | --- | :---: | --- |
+ | `eng` | [English, Inglês, Anglais,…] | … |
+ | `cmn` | [Chinese (Mandarin), Beifang Fangyan, Guanhua,…] | … |
+ | … | … | … |
 For language names, an array of all of the strings used in naming a language
 
 ##Method 1
@@ -32,19 +32,19 @@ Each language has a corpus table with all of the phrases in that language. Each 
 
 **User Table**
 
-|ID|User Name|Books (Has many)|…|
-|---|---|---|---|
-|#|Johnathan Swift|[Reference to book table]|…|
-|…|…|…|…|
+ | ID | User Name | Books (Has many) | … |
+ | --- | --- | --- | --- |
+ | # | Johnathan Swift | [Reference to book table] | … |
+ | … | … | … | … |
 
 **Book Table**
 
 Each book would have it's own table defining which phrases it owns
 
-|Source records `eng`|Target records `spa`|
-|---|---|
-|Record #|Record #|
-|…|…|
+ | Source records `eng` | Target records `spa` |
+ | --- | --- |
+ | Record # | Record # |
+ | … | … |
 
 We know which language corpus to refer to by the table headers.
 
@@ -60,11 +60,12 @@ We know which language corpus to refer to by the table headers.
 ```
 **`Eng` Corpus**
 
-|ID|Value|Type|Meta|…|
-|---|---|---|---|---|
-|#|hello|text||…|
-|#|link/to/resource|video|olá|…|
-|…|…|…|…|…|
+ | ID | Value | Type | Meta | … |
+ | --- | --- | --- | --- | --- |
+ | # | hello | text |  | … |
+ | # | link/to/resource | video | olá | … |
+ | … | … | … | … | … |
+
 Each record is a phrase. Phrases can exist in multiple dictionaries or phrase books.
 
 For written languages, you can have both text entries and video entries.
@@ -80,57 +81,57 @@ A centralized books table references authors. Each *language pair* has its own u
 
 **User Table**
 
-|ID|User Name|OAuth|…|
-|---|---|---|---|
-|#|Daniel Udell|Token|…|
-|#|Frederico Andrade|Token|…|
-|…|…|…|…|
+ | ID | User Name | OAuth | … |
+ | --- | --- | --- | --- |
+ | # | Daniel Udell | Token | … |
+ | # | Frederico Andrade | Token | … |
+ | … | … | … | … |
 
 **Books table**
 
-|ID|Title|Source language ID|Target language ID|User|…|
-|---|---|---|---|---|---|
-|#|Russian for beginners|`eng`|`rus`|Author's #|…|
-|#|Aprenda Japonês|`por`|`jap`|Author's #|…|
-|…|…|…|…|…|…|
+ | ID | Title | Source language ID | Target language ID | User | … |
+ | --- | --- | --- | --- | --- | --- |
+ | # | Russian for beginners | `eng` | `rus` | Author's # | … |
+ | # | Aprenda Japonês | `por` | `jap` | Author's # | … |
+ | … | … | … | … | … | … |
 
 **`eng && rus` Corpus**
 
-|ID|Language 1 ID (`eng`)|Language 2 ID (`rus`)|Book #|…|
-|---|---|---|---|---|
-|#|Hello|Привет! (Privyet!)|Book ID|…|
-|…|…|…|…|…|
+ | ID | Language 1 ID (`eng`) | Language 2 ID (`rus`) | Book # | … |
+ | --- | --- | --- | --- | --- |
+ | # | Hello | Привет! (Privyet!) | Book ID | … |
+ | … | … | … | … | … |
 The Language pair corpus or Translation corpus represents all of the phrases that exist between two languages.
 
 **Downsides: 7000^7000 = 49 million language pairs, 49 million tables.**
 
 ##Method 3
 
-Single universal corpus with all phrases. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
+Single universal corpus with all phrase pairs. In this proposal, dictionaries are aggregates of corpus entries, specified by the interface #.
 
 **Full corpus**
 
-|ID|Source Lang ID|Target Lang ID|Source Value| Target Value|Source Type|Target Type|Source Meta|Target Meta|Interface ID|…|
-|---|---|---|---|---|---|---|---|---|---|---|
-|#|`eng`|`rus`|Hello|Привет! (Privyet!)|Text|Text|…|…|Reference to Book Interface Table|…|
-|#|`eng`|`rus`|Hello|link/to/video|Text|Video|…|hello|Reference to Book Interface Table|…|
-|…|…|…|…|…|…|…|…|…|…|…|
+ | ID | Source Lang ID | Target Lang ID | Source Value |  Target Value | Source Type | Target Type | Source Meta | Target Meta | Interface ID | … |
+ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | # | `eng` | `rus` | Hello | Привет! (Privyet!) | Text | Text | … | … | Reference to Book Interface Table | … |
+ | # | `eng` | `rus` | Hello | link/to/video | Text | Video | … | hello | Reference to Book Interface Table | … |
+ | … | … | … | … | … | … | … | … | … | … | … |
 
 **Interface Table**
 
-|ID|Interface #|Book #|…|
-|---|---|---|---|
-|#|Interface ID|Book ID|…|
-|…|…|…|…|
+ | ID | Interface # | Book # | … |
+ | --- | --- | --- | --- |
+ | # | Interface ID | Book ID | … |
+ | … | … | … | … |
 
 **Duplicate problem**
 
 The following table illustrates a data duplicate problem.
 
-|ID|…|Source Value|Target Value|…|
-|---|---|---|---|---|
-|#|…|Hello|Привет! (Privyet!)|…|
-|#|…|Привет! (Privyet!)|Hello|…|
+ | ID | … | Source Value | Target Value | … |
+ | --- | --- | --- | --- | --- |
+ | # | … | Hello | Привет! (Privyet!) | … |
+ | # | … | Привет! (Privyet!) | Hello | … |
 Both phrase entries are the same in practice.
 
 ##Open questions:
