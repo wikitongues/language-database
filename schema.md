@@ -53,8 +53,8 @@ I wonder if the book reference on the user table couldnt be something along the 
    {
       "eng":"spa",
       "dictionary": {
-         "Eng corpus record #":"Spa corpus record #",
-         "Eng corpus record #":"Spa corpus record #"
+         "record #":"record #",
+         "record #":"record #"
        }
     }
 ```
