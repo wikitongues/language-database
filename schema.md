@@ -59,7 +59,7 @@ For languages that are not written, video will be used. For video to be indexed 
 `Question: reference books on user table or author on books table?`
 
 #Method 2
-A centralized books table references authors. Each language *pair* has its own unique corpus table. Dictionaries are defined in belongs-to relationships as phrase pair book IDs.
+A centralized books table references authors. Each *language pair* has its own unique corpus table. Dictionaries are defined in belongs-to relationships as phrase pair book IDs.
 ###User Table
 |ID|User Name|OAuth|…|
 |---|---|---|---|
@@ -75,7 +75,7 @@ A centralized books table references authors. Each language *pair* has its own u
 |---|---|---|---|---|
 |#|Hello|Привет! (Privyet!)|Book ID|…|
 |…|…|…|…|…|
-The Language pair corpus or Translation corpus represents all of the phrases that exist between any language pair.
+The Language pair corpus or Translation corpus represents all of the phrases that exist between two languages.
 
 Downsides: 7000^7000 = 49 million language pairs. Outrage.
 #Method 3
