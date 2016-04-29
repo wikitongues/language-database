@@ -90,11 +90,11 @@ A centralized books table references authors. Each *language pair* has its own u
 
 |ID|Title|Source language ID|Target language ID|User|…|
 |---|---|---|---|---|---|
-|#|Polish for beginners|`eng`|`rus`|Author's #|…|
+|#|Russian for beginners|`eng`|`rus`|Author's #|…|
 |#|Aprenda Japonês|`por`|`jap`|Author's #|…|
 |…|…|…|…|…|…|
 
-**`Eng && Rus` Corpus**
+**`eng && rus` Corpus**
 
 |ID|Language 1 ID (`eng`)|Language 2 ID (`rus`)|Book #|…|
 |---|---|---|---|---|
@@ -102,7 +102,7 @@ A centralized books table references authors. Each *language pair* has its own u
 |…|…|…|…|…|
 The Language pair corpus or Translation corpus represents all of the phrases that exist between two languages.
 
-**Downsides: 7000^7000 = 49 million language pairs, 49 million tables. Outrage.**
+**Downsides: 7000^7000 = 49 million language pairs, 49 million tables.**
 
 ##Method 3
 
