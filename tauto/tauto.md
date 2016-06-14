@@ -77,4 +77,4 @@ Would then assert an additional references about the same referent.
 
 # Open questions
 
-Currently the system doesn't admit homophones. It will probably be necessary to introduce a third, optional parameter to the domain/sign dyad to indicate context. My intuition tells me that these should be free strings, that don't need to be signs in any particular domain (that is, that don't need themselves to have referents), and only need to be unique as tags within domains.
+Currently the system doesn't admit homonyms within a domain. It will probably be necessary to introduce a third, optional parameter to the domain/sign dyad to indicate context. My intuition tells me that these should be free strings, that don't need to be signs in any particular domain (that is, that don't need themselves to have referents), and only need to be unique as tags within domains.
