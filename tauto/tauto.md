@@ -2,7 +2,7 @@ FORMAT: .1
 
 # WID - Lemma[^1] reference engine
 
-We are defining an API to be used for associating and retrieving associations between/among given words in a language-agnostic context. The first use of this service will be the population and retrieval of language names.
+We are defining an API to be used for creating and retrieving associations between given words in a language-agnostic context. The first use of this service will be the population and retrieval of language names.
 
 The API will expose a single resource: A reference. A reference has 4 components:
 
