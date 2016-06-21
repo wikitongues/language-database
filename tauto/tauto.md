@@ -15,7 +15,7 @@ Roughly speaking, these express the following statement:
 
 `In [Context language W], [Sign X] means [Referent Y] in [Domain Z]`
 
-## Sign
+Ex: In the [`Context language`:`English`], the [`Sign`:`French`] means the [`Referent`:`Francês`] in the [`Domain`:`Portuguese`]
 
 A sign is a *content object*[^1] which is the realization of a *referent* within a given *domain*. In the context of human language, it is a language vocabulary element.
 
