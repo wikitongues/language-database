@@ -119,7 +119,7 @@ Currently the system doesn't admit homonyms<sup>[3](#footnote3)</sup> within a d
 ---
 ###Definitions
 
-<a name="footnote1">1.</a> A [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology) (plural *lemmas*) is the canonical form, dictionary form, or citation form of a set of words. In English, for example, run, runs, ran and running are forms of the same [lexeme](https://en.wikipedia.org/wiki/Lexeme), with *run* as the lemma.
+<a name="footnote1">1.</a> A [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology)) (plural *lemmas*) is the canonical form, dictionary form, or citation form of a set of words. In English, for example, run, runs, ran and running are forms of the same [lexeme](https://en.wikipedia.org/wiki/Lexeme), with *run* as the lemma.
 
 <a name="footnote2">2.</a> A Content Object is a package of meaning or information. Within Poly, it is a word or phrase. This may be a string of text in any writing system, as well as media in image, audio and video formats. 
 
