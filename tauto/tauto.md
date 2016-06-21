@@ -93,20 +93,24 @@ For instance, posted to /eng:
 
 + Request (application/json)
 
-    `{
-       "english": "english",
+    ```json
+    {
+       "english": "english",       
        "italian": "inglese",
        "german": "englisch",
-    }`
+    }
+    ```
 
 Asserts three references about the same referent (in this case, the English language). The keys - the domain elements - are all signs in the context language and the values are asserted as signs in their domains.
 
 + Request (application/json)
 
-    `{
+    ```json
+    {
         "english": "english",
         "russian": "английский"
-    }`
+    }
+    ```
 
 Would then assert an additional references about the same referent.
 
