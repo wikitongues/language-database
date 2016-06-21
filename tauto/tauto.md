@@ -4,7 +4,7 @@ FORMAT: .1
 
 We are defining an API to be used for creating and retrieving associations between given words in a language-agnostic context. The first use of this service will be the population and retrieval of language names.
 
-The API will expose a single resource: A reference. A reference has 4 components:
+The API will expose a single resource, called a `Reference`. A reference has 4 components:
 
 - Sign
 - Domain
