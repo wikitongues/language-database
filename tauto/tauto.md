@@ -6,14 +6,14 @@ We are defining an API to be used for creating and retrieving associations betwe
 
 The API will expose a single resource, called a `Reference`. A reference has 4 components:
 
-- Sign
-- Domain
-- * Referent 
-- Context/Host language
+- Sign *(think of it as the content string)*
+- Domain *(effectively a language scope)*
+  * Referent *(scope in different language)* `!F not sure if this should be representationally nested`
+- Context/Host language *(system or interface language)*
 
-Roughly speaking, these express the statement, "[Sign] means [Referent] in [Domain]", where the context language is the language of the statement itself. The referent is an integral part of a reference statement but will remain internal to the system.
+Roughly speaking, these express the following statement: 
 
-The system can be expressed as a series of propositions of this form.
+`In [Context language W], [Sign X] means [Referent Y] in [Domain Z]`
 
 ## Sign
 
