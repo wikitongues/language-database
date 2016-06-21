@@ -1,6 +1,6 @@
 FORMAT: .1
 
-# WID - Lemma[^1] reference engine
+# WID - Lemma<sup>[1](#footnote1)</sup> reference engine
 
 We are defining an API to be used for creating and retrieving associations between given words in a language-agnostic context. The first use of this service will be the population and retrieval of language names.
 
@@ -23,7 +23,7 @@ The system can be expressed as a series of `References` of this form.
 
 ### Sign
 
-A `Sign` is a *content object*[^2]. It is the realization`! confusing word` of a `Referent` within a given `Domain`. In the context of human language, it is a vocabulary element.
+A `Sign` is a *content object*<sup>[2](#footnote2)</sup>. It is the realization`! confusing word` of a `Referent` within a given `Domain`. In the context of human language, it is a vocabulary element.
 
 
 ### Domain
@@ -114,13 +114,13 @@ Would then assert an additional references about the same referent.
 
 # Open questions
 
-Currently the system doesn't admit homonyms[^3] within a domain. It will probably be necessary to introduce a third, optional parameter to the domain/sign dyad to indicate context. My intuition tells me that these should be free strings, that don't need to be signs in any particular domain (that is, that don't need themselves to have referents), and only need to be unique as tags within domains.
+Currently the system doesn't admit homonyms<sup>[3](#footnote3)</sup> within a domain. It will probably be necessary to introduce a third, optional parameter to the domain/sign dyad to indicate context. My intuition tells me that these should be free strings, that don't need to be signs in any particular domain (that is, that don't need themselves to have referents), and only need to be unique as tags within domains.
 
 ---
 ###Definitions
 
-[^1]: A [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology)) (plural *lemmas*) is the canonical form, dictionary form, or citation form of a set of words. In English, for example, run, runs, ran and running are forms of the same [lexeme](https://en.wikipedia.org/wiki/Lexeme), with *run* as the lemma.
+<a name="footnote1">1.</a> A [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology) (plural *lemmas*) is the canonical form, dictionary form, or citation form of a set of words. In English, for example, run, runs, ran and running are forms of the same [lexeme](https://en.wikipedia.org/wiki/Lexeme), with *run* as the lemma.
 
-[^2]: A Content Object is a package of meaning or information. Within Poly, it is a word or phrase. This may be a string of text in any writing system, as well as media in image, audio and video formats. 
+<a name="footnote2">2.</a> A Content Object is a package of meaning or information. Within Poly, it is a word or phrase. This may be a string of text in any writing system, as well as media in image, audio and video formats. 
 
-[^3]: A homonym is defined as each of two or more words having the same spelling but different meanings and origins (e.g., pole of a tent and North Pole); also called a homograph.]
+<a name="footnote3">3.</a> A homonym is defined as each of two or more words having the same spelling but different meanings and origins (e.g., pole of a tent and North Pole); also called a homograph.]
