@@ -101,7 +101,7 @@ For instance, posted to /eng:
     }
     ```
 
-Asserts three references about the same referent (in this case, the English language). The keys - the domain elements - are all signs in the context language and the values are asserted as signs in their domains.
+asserts three references about the same referent (in this case, the English language). The keys - the domain elements - are all signs in the context language and the values are asserted as signs in their domains.
 
 + Request (application/json)
 
